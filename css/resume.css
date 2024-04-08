@@ -145,7 +145,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 50vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -176,4 +176,29 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.city-country-font {
+    font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.15rem;
+    font-weight: 400;
+	color: #868e96;
+}
+
+.model-image {
+  max-width: 450px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-container {
+  width: 100%; /* 或者根据需求设定固定宽度 */
+  text-align: center; /* 使得figcaption文本居中 */
+}
+
+figcaption {
+  color: #868e96; /* 图片描述的颜色 */
+  margin-top: 0.5em; /* 在图片和描述文本之间提供一些空间 */
 }
